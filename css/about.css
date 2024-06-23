@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700224189.jpg');
+    background-size: cover;
+
+    background-position:  center;
+    background-repeat: no-repeat;
+ 
+}
+input[type="checkbox"]:checked~ul {
+    display: none;
+}
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo{
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: left;
+}
+#logo img{
+    height: 80px;
+   object-fit: contain;
+}
+#menu{
+    list-style: none;
+    padding:0;
+ 
+ }
+ 
+ #menu li {
+     padding: 10px 0;
+     font-size: 20px;
+     border-bottom: 1px solid #ccc;
+     margin: 20px 0;
+ }
+ #hamburger{
+    color: #fff;
+ }
+ 
+ 
+ #menu li a {
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+ }
+ 
+ label {
+     display: inline-block;
+     vertical-align: top;
+     margin-top: 20px;
+     text-align: right;
+     width: 48%;
+     font-size: 24px;
+     cursor: pointer;
+ }
+ 
+ #inp {
+     display: none;
+ }
+
+.about{
+    font-size: 1.9em;
+    text-align: center;
+    padding: 5px;
+
+}
+h2{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px  2px  black;
+    font: 1.2em Verdana,bold;
+}
+p{
+  
+    font: .9em/1.4 arial,sans-serif,bold;
+    text-shadow: 2px 2px  2px  black;
+    margin: 10px 5px;
+    color: #fff;
+}
+
+main {
+    padding: 10px 5px;
+    margin: 10px 10px;
+}
+
+.container {
+        padding: 10px 15px;
+        margin: 120px 20px;
+        text-align: center;
+}
+footer {
+    text-shadow: 2px 2px  2px  black;
+    clear:both;
+    font: 1.5em Arial,sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/*-------------------------------------------- Dekstop version ------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700224189.jpg')center/cover;
+        background-repeat: no-repeat;
+        
+    }
+    label {
+        display: none;
+    }
+
+    #logo {
+        width: 40px;
+    }
+
+    #logo img{
+       height: 100px;
+    }
+    #menu {
+        margin-top: 5px;
+        vertical-align: top;
+        text-align: right;
+        display: inline-block;
+        width: calc(100% - 80px);
+    }
+
+    #menu li {
+        display: inline-block;
+        border: none;
+        margin: 10px 10px;
+    }
+    #menu li a{
+        text-decoration: none;
+    }
+    main {
+        padding: 15px 5px;
+        margin: 20px 5px;
+    }
+
+    .container {
+        padding: 10px 15px;
+        margin: 200px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: .8em;
+    }
+    footer{
+        text-shadow: 2px 2px  2px  black;
+        margin-top: 300px;
+        padding:5px ;
+    }
+
+}
