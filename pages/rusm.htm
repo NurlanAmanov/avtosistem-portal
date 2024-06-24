@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/rusm.css">
+    <title>Avtoaz</title>
+</head>
+
+<body>
+    <header>
+        <nav class="head">
+            <a id="logo" href="../index.htm">
+                <img src="../img/logom.png" alt="carlogo">
+            </a>
+            <label for="inp">
+                <i id="hamburger" class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="inp" />
+            <ul id="menu">
+                <li><a href="../index.htm">Ana səhifə</a></li>
+                <li><a href="../pages/rusm.htm">Rüsmlar</a></li>
+                <li><a href="">Sorğu paneli</a></li>
+                <li><a href="../pages/about.htm">Haqqımızda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="card">
+                    <h3>Gömrük rüsumu kalkulyatoru <i class="fa-solid fa-calculator"></i></h3>
+                    <select id="selcet1">
+                        <option class="option1">Mühərrik növü</option>
+                        <option>Benzin</option>
+                        <option>Dizel</option>
+                        <option>Qaz</option>
+                        <option>Hibrid-Benzin</option>
+                        <option>Hibrid-Qaz</option>
+                        <option>Elektrik</option>
+                    </select>
+                    <div id="value">
+                        <input id="text1" type="text" placeholder="Gömrük dəyəri (USD)" maxlength="14">
+                        <input id="text2" type="text" placeholder="Mühərrikin həcmi (sm3)" maxlength="7">
+                    </div>
+                    <div id="date">
+                        <p class="date1">Istehsal ili<i class="fa-solid fa-calendar-days"></i></p>
+                        <input id="date1" type="date">
+                    </div>
+                    <div id="country">
+                        <h5>Mənşə (istehsal) ölkəsi və göndərən ölkə haqqında</h5>
+                    </div>
+                    <div id="checks">
+                        <input type="radio" id="cehck1"> <span> Digər ölkələr</span>
+                    </div>
+                    <div id="checks2">
+                        <input type="radio" id="cehck2"><span> Azad ticarət sazişi bağlanan ölkədə istehsal olunub və
+                            oradan gətirilir</span>
+                    </div>
+                    <span class="span2">Dolların alış və satışı : 1 USD = 1.7 ₼ </span>
+                    <div id="button">
+                        <input id="reset" type="reset" placeholder="Sıfırla">
+                        <input id="submit" type="submit" placeholder="Sıfırla">
+                    </div>
+                </div>
+                <!--------------  Card 2 ------------- -->
+                <div class="card2">
+                    <h3 class="head3">Nəticə <i class="fa-solid fa-square-poll-vertical"></i></h3>
+                    <ul class="stil">
+                        <li class="stil">
+                            <div class="top">
+                                <div class="t1">İdxal gömrük rüsumu</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">ƏDV</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Gömrük yığımları</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Aksiz vergisi</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Vəsiqə haqqı</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Elektron gömrük xidməti haqqı</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Elektron gömrük xidməti üzrə ƏDV</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <div class="t1">Utilizasiya haqqı</div>
+                                <div class="t">0 AZN</div>
+                            </div>
+                            <div class="tops">
+                                <div class="cem">Cəmi gömrük ödənişləri:</div>
+                                <div class="cem">0 AZN</div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="about">
+                    <h2 class="top2"> Vətəndaşların nəzərinə!</h2>
+                    <p class="info">Azərbaycan Respublikasının gömrük ərazisinə mal qismində gətirilən nəqliyyat
+                        vasitələrinin bəyannaməçi tərəfindən gömrük dəyərinin müəyyən edilməsi (gömrük
+                        dəyərləndirilməsi) beynəlxalq təcrübədə qəbul olunmuş ümumi prinsiplərə (1994-cü il Tariflər
+                        və Ticarət üzrə Baş Sazişin (GATT) VII maddəsinə, GATT-ın VII maddəsinin Tətbiq edilməsinə
+                        dair Razılaşmaya və onun əlavələrinə), Azərbaycan Respublikasının Gömrük Məcəlləsinə,
+                        "Gömrük tarifi haqqında" Azərbaycan Respublikasının Qanununa, həmçinin Azərbaycan
+                        Respublikasının qüvvədə olan digər qanunvericilik aktlarına uyğun olaraq həyata keçirilir.
+                        Bəyannaməçi tərəfindən bəyan edilmiş gömrük dəyəri və onun müəyyən edilməsi ilə bağlı
+                        məlumatlar dəqiq, kəmiyyəti müəyyən oluna bilən və sənədlərlə təsdiq edilmiş məlumatlara
+                        əsaslanmalıdır.Gömrük orqanının gömrük dəyərləndirilməsi məqsədi ilə ona təqdim edilən hər hansı
+                        məlumatın,sənədin və ya bəyannamənin düzgünlüyünü araşdırmaq hüququ vardır.</p>
+                </div>
+        </div>
+        </div>
+
+        </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>Avtosistem &copy 2024</p>
+    </footer>
+</body>
+
+</html>

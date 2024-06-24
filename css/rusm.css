@@ -1,0 +1,532 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700224189.jpg');
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+input[type="checkbox"]:checked~ul {
+    display: none;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+#logo img {
+    height: 80px;
+    object-fit: contain;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+
+}
+
+#menu li {
+    padding: 10px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#hamburger {
+    color: #fff;
+}
+
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    text-align: right;
+    width: 48%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#inp {
+    display: none;
+}
+
+
+
+main {
+    padding: 10px 5px;
+    margin: 5px 10px;
+}
+
+/* Bu hisse formun  stil kodlari olan yerdi */
+.container {
+    margin: 10px 5px;
+    text-align: center;
+
+
+}
+
+form {
+
+    width: 100%;
+
+}
+
+/* -------------------- Card 1 --------------------- */
+.card {
+    display: inline-block;
+    margin: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px 10px;
+    background: #fff;
+    width: 80%;
+
+}
+
+
+select {
+    border-radius: 5px 5px;
+    cursor: pointer;
+    border-color: black;
+    margin: 10px 10px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+h3 {
+    padding: 5px;
+    margin: 10px 10px;
+    font: 1.5em Verdana, bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h3 i {
+    color: black;
+    font-size: 1.2em;
+}
+
+.txt {
+    font: 1.2em Arial, bold;
+    color: rgb(172, 4, 4);
+    margin: 10px 10px;
+}
+
+#selcet1,
+option {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font: 1.2em, Verdana, bold;
+    border-radius: 10px 10px;
+    text-align: center;
+    width: 85%;
+    height: 40px;
+}
+
+#value {
+    text-align: center;
+}
+
+#text1,
+#text2 {
+    font: 1.8em, arial, bold;
+    padding: 10px;
+    border-radius: 5px 5px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    width: 85%;
+    height: 200x;
+}
+
+#date {
+    text-align: left;
+}
+
+.date1 {
+    font: 1.5em Arial, bold;
+    margin: 10px 10px;
+
+}
+
+.data1,
+i {
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+#date1 {
+    width: 30%;
+    height: 25px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#country {
+    text-align: left;
+    font: 1.3em verdana, bold;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}
+
+#checks {
+    text-align: left;
+    border: solid #ccc;
+    overflow: hidden;
+    border-radius: 5px 5px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+#checks2 {
+    border: solid #ccc;
+    overflow: hidden;
+    border-radius: 5px 5px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+
+#check,
+span {
+    font: 1.1rem arial, bold;
+    margin-left: 10px;
+}
+
+#check2,
+span {
+    font: 1rem arial, bold;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.span2 {
+    font-size: 1rem;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}
+
+#reset {
+    width: 40%;
+    height: 35px;
+    border: none;
+    background: rgb(238, 62, 62);
+    border-radius: 5px 5px;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+#submit {
+    border: none;
+    background: rgb(6, 233, 44);
+    border-radius: 5px 5px;
+    color: #fff;
+    width: 40%;
+    height: 35px;
+    padding: 5px 5px;
+    margin-left: 15px;
+}
+
+#button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+/* -------------- Card 2 ----------------- */
+.card2 {
+    display: inline-block;
+    margin: 15px 10px;
+    vertical-align: top;
+    border: 1px solid;
+    border-radius: 10px 10px;
+    background: #fff;
+    width: 80%;
+
+}
+
+.head3 {
+    text-align: left;
+}
+
+.stil {
+    list-style: none;
+}
+
+.tops {
+    background: red;
+    border-radius: 5px 5px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px 0;
+}
+
+.top {
+    text-align: left;
+
+}
+
+.cem {
+    margin: 5px 5px;
+    color: #fff;
+    padding: 5px;
+    font: 1.2em verdana, bold;
+    text-align: center;
+}
+
+.top2 {
+
+    margin: 5px 10px;
+    text-align: left;
+}
+
+.t1 {
+    margin: 5px 5px;
+    font: 1em Arial, bold;
+
+
+}
+
+.t {
+    margin: 5px 5px;
+    font: 1em Arial, bold;
+    text-align: right;
+    border-bottom: 1px solid black;
+
+}
+
+.about {
+    display: inline-block;
+    border-radius: 5px 5px;
+    background: #fff;
+    margin: 10px 5px;
+}
+
+.info {
+    margin: 10px 10px;
+    font: 1.1em Arial, sans-serif, bold;
+    padding: 5px 5px;
+    text-align: justify;
+}
+
+footer {
+    text-shadow: 2px 2px 2px black;
+    clear: both;
+    font: 1.5em Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/*-------------------------------------------- Dekstop version ------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700224189.jpg')center/cover;
+        background-repeat: no-repeat;
+
+    }
+
+    label {
+        display: none;
+    }
+
+    #logo {
+        width: 40px;
+    }
+
+    #logo img {
+        height: 100px;
+    }
+
+    #menu {
+        margin-top: 5px;
+        vertical-align: top;
+        text-align: right;
+        display: inline-block;
+        width: calc(100% - 80px);
+    }
+
+    #menu li {
+        display: inline-block;
+        border: none;
+        margin: 10px 10px;
+    }
+
+    #menu li a {
+        text-decoration: none;
+    }
+
+    main {
+        padding: 10px 5px;
+        margin: 15px 5px;
+    }
+
+    .container {
+        padding: 10px 15px;
+        margin: 50px 20px;
+    }
+
+    footer {
+        text-shadow: 2px 2px 2px black;
+        margin-top: 300px;
+        padding: 5px;
+    }
+
+    /* ------------------        form ------------*/
+
+    .card {
+        display: inline-block;
+        margin: auto;
+        border: 1px solid;
+        border-radius: 10px 10px;
+        background: #fff;
+        width: 40%;
+
+
+    }
+
+    .card2 {
+        display: inline-block;
+        margin: auto;
+        border: 1px solid;
+        border-radius: 10px 10px;
+        background: #fff;
+        width: 40%;
+
+
+    }
+
+    select {
+        border-radius: 5px 5px;
+        cursor: pointer;
+        border-color: black;
+        margin: 10px 10px;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+    }
+
+    h3 {
+        padding: 5px;
+        margin: 10px 10px;
+        font: 1.5em Verdana, bold;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    h3 i {
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .txt {
+        font: 1.2em Arial, bold;
+        color: rgb(172, 4, 4);
+        margin: 10px 10px;
+    }
+
+    #selcet1,
+    option {
+        background: #ffffff;
+        color: rgb(0, 0, 0);
+        font: 1.2em, Verdana, bold;
+        border-radius: 10px 10px;
+        text-align: center;
+        width: 90%;
+        height: 40px;
+    }
+
+    #value {
+        text-align: left;
+    }
+
+    #text1,
+    #text2 {
+        font: 1.8em, arial, bold;
+        padding: 10px;
+        border-radius: 5px 5px;
+        border: 1px solid black;
+        margin: 20px 10px;
+        width: 90%;
+        height: 200x;
+    }
+
+    #date {
+        text-align: left;
+    }
+
+    .date1 {
+        font: 1.5em Arial, bold;
+        margin: 10px 10px;
+
+    }
+
+    .data1,
+    i {
+        font-size: 1.2em;
+        margin-left: 10px;
+    }
+
+    #date1 {
+        width: 30%;
+        height: 25px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    #country {
+        font: 1.3em verdana, bold;
+        margin: 15px 5px;
+        padding: 10px 5px;
+    }
+
+    #checks {
+        border: solid #ccc;
+        overflow: hidden;
+        border-radius: 5px 5px;
+        padding: 5px 5px;
+        margin: 10px 10px;
+    }
+
+    #checks2 {
+        border: solid #ccc;
+        overflow: hidden;
+        border-radius: 5px 5px;
+        padding: 5px 5px;
+        margin: 10px 10px;
+    }
+
+    #check,
+    span {
+        font: 1.1rem arial, bold;
+        margin-left: 10px;
+    }
+
+    #check2,
+    span {
+        font: 1rem arial, bold;
+        text-align: justify;
+        margin-left: 10px;
+    }
+}
